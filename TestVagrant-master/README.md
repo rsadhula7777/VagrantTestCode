@@ -18,13 +18,13 @@
  </test>
 </suite>
 
-#1.SignIn Test
+# 1.SignIn Test
 
 Frame ID is not mentioned so Test cases is failing here.I have added the code to swich in to the frame
 
 #driver.switchTo().frame("modal_window");
 
-#2.Hotel Booking Test
+# 2.Hotel Booking Test
 
 Changed few Locators
 @FindBy(xpath = "//a[@title='Hotels']")
@@ -34,7 +34,7 @@ Used #JavaScriptExecutor to click on Hotel link,Entering the city name & Clickin
 
 No need of selecting 1 room, 2 adults again as this option is selected by default
 
-#3.Flight Booking Test
+# 3.Flight Booking Test
 
 Changed Locator ID:ToTag
 Changed Locator //section[@id='GlobalNav']/descendant::strong to assert search results display

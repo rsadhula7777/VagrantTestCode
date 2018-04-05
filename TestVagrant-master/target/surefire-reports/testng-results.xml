@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SignInTest" duration-ms="149771" started-at="2018-04-05T00:06:05Z" finished-at="2018-04-05T00:08:34Z">
+    <groups>
+    </groups>
+    <test name="TestCases" duration-ms="149771" started-at="2018-04-05T00:06:05Z" finished-at="2018-04-05T00:08:34Z">
+      <class name="TestCases.HotelBookingTest">
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:TestCases.HotelBookingTest@6cd8737]" name="shouldBeAbleToSearchForHotels" duration-ms="48662" started-at="2018-04-05T05:36:55Z" finished-at="2018-04-05T05:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToSearchForHotels -->
+      </class> <!-- TestCases.HotelBookingTest -->
+      <class name="TestCases.FlightBookingTest">
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:TestCases.FlightBookingTest@22f71333]" name="testThatResultsAppearForAOneWayJourney" duration-ms="50824" started-at="2018-04-05T05:37:43Z" finished-at="2018-04-05T05:38:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
+      </class> <!-- TestCases.FlightBookingTest -->
+      <class name="TestCases.SignInTest">
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:TestCases.SignInTest@6108b2d7]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="50175" started-at="2018-04-05T05:36:05Z" finished-at="2018-04-05T05:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
+      </class> <!-- TestCases.SignInTest -->
+    </test> <!-- TestCases -->
+  </suite> <!-- SignInTest -->
+</testng-results>

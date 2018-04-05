@@ -1,23 +1,45 @@
 # TestVagrant hiring challenge for applicants 
 
-About the codebase:
----------------------------------
-*This is a simple test project for testing a few scenarios on a sample flight/hotel booking website. There are **3 tests** in total spread over 3 test classes. Following tech stack has been used to develop the same.*
+#Total 3 Test cases have been scripted 1)SignInTest 2)HotelBookingTest 3)FlightBookingTest with some errors
 
-**Tech Stack:** *Java*  *Selenium* *TestNG*  *Gradle/Maven*
+-I have added Maven Compiler Plugin & Maven Sure Fire Plugin to pom.xml
+-Create testng.xml
+-Configured the Java Classes in tesng.xml
 
-Problem Statement
-----------------------------------
-**Tasks:**
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SignInTest" verbose="1" >
+  <test name="TestCases" >
+    <classes>
+        <class name="TestCases.SignInTest"/> 
+        <class name="TestCases.HotelBookingTest"/> 
+        <class name="TestCases.FlightBookingTest"/>
+    </classes>
+ </test>
+</suite>
 
-1. Test are failing which needs your expertise to fix it.
-2. Review and point out design issues with the current codebase/framework, if any.
-3. Improve/refactor the code to implement your suggestions.
+#1.SignIn Test
 
-**What we want:**
-1. Create a GitHub account if not existing already.
-2. Fork this repo (DO NOT CLONE).
-3. Fix the errors and refactor the code, consider **abstractions, reusability and maintenance.**
-4. Make sure you make multiple check-ins in the process, we would love to see your progress bit by bit.
-5. Also check-in a separate file where you should list all your code review comments.
-6. Send us the link of your GitHub repo to **careers@testvagrant.com**. Also attach your **resume**.
+Frame ID is not mentioned so Test cases is failing here.I have added the code to swich in to the frame
+
+#driver.switchTo().frame("modal_window");
+
+#2.Hotel Booking Test
+
+Changed few Locators
+@FindBy(xpath = "//a[@title='Hotels']")
+@FindBy(xpath = "//select[@id='travellersOnhome']/option")
+
+Used #JavaScriptExecutor to click on Hotel link,Entering the city name & Clicking on Search Hotels Button
+
+No need of selecting 1 room, 2 adults again as this option is selected by default
+
+#3.Flight Booking Test
+
+Changed Locator ID:ToTag
+Changed Locator //section[@id='GlobalNav']/descendant::strong to assert search results display
+
+
+
+
+

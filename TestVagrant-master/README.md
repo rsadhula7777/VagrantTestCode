@@ -38,8 +38,7 @@ No need of selecting 1 room, 2 adults again as this option is selected by defaul
 
 Changed Locator ID:ToTag
 Changed Locator //section[@id='GlobalNav']/descendant::strong to assert search results display
-
-
+Added my own method for IsElementPresent as existing method didnt work properly
 
 
 

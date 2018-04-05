@@ -1,6 +1,6 @@
 # TestVagrant hiring challenge for applicants 
 
-#Total 3 Test cases have been scripted 1)SignInTest 2)HotelBookingTest 3)FlightBookingTest with some errors
+# Total 3 Test cases have been scripted 1)SignInTest 2)HotelBookingTest 3)FlightBookingTest with some errors
 
 -I have added Maven Compiler Plugin & Maven Sure Fire Plugin to pom.xml
 -Create testng.xml
